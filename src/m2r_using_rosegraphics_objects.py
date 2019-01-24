@@ -10,60 +10,62 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   RUN this program.  Then answer the following,
 #     GETTING HELP AS NEED! (Ask questions!!!)
 #
 #     a. For the RoseGraphics coordinate system:
 #
 #        -- Where is the (0, 0) point on the screen?
-#              In the center of the window
+#              Top left corner.
 #
 #        -- In what direction on the screen
 #           does the positive X-axis point?
-#              To the right.
+#              Left to right.
 #
 #        -- In what direction on the screen
 #           does the positive Y-axis point?
-#              Straight up.
+#              Top to bottom.
 #
 #     b. Write a line of code that constructs a RoseWindow object:
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            window = rg.RoseWindow()
 #
 #     c. What is the default height of a RoseWindow?
 #        (Use the HOVER trick to determine the answer to this question.)
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            300
 #
 #     d. Write a line of code that construct a RoseWindow object
 #        whose height is 100:  (Use the HOVER trick to figure it out)
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            window = rg.RoseWindow(100, 100)
 #
 #     e. Use the DOT trick to answer the following:
 #
 #          -- Write the names of two types of graphics objects that
 #             you can construct OTHER than Circle and Point:
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
-#
+#                rg.Ellipse()
+#                rg.Square()
 #          -- Write the names of three METHODs that Circle objects have:
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
-#
+#                dax = rg.Circle()
+#                dax.move_center_to()
+#                dax.attach_to()
+#                dax.clone()
 #          -- Write the names of three INSTANCE VARIABLEs that Circle
 #             objects have:
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#                center, radius, and fill color
 #
 #     f. What does a RoseWindow RENDER method do?
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            Allows an object to be drawn in a specific window.
 #
 #     g. When is a RoseWindow close_on_mouse_click method call
 #        necessary?  Why?
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            If the code runs quickly and closes quickly, it is helpful so you can see what the code does.
 #
 #   ASK QUESTIONS ** NOW ** if you do not understand how the
 #     RoseGraphics graphics system works.
 #
 #   When you are confident that you have written correct answers
 #   to the above questions (ASK QUESTIONS AS NEEDED!),
-#   change the above TODO to DONE.
+#   change the above DONE to DONE.
 #
 ###############################################################################
 
