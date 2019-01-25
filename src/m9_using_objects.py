@@ -35,6 +35,12 @@ def two_circles():
     # Put a statement in   main   to test this function
     #    (by calling this function).
     # -------------------------------------------------------------------------
+    window = rg.RoseWindow()
+    center_point1 = rg.Point(0, 0)
+    center_point2 = rg.Point(0, 100)
+    circle1 = rg.Circle(center_point1, 15)
+    circle2 = rg.Circle(center_point2, 15)
+
 
 
 def circle_and_rectangle():
