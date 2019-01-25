@@ -16,10 +16,10 @@ def main():
     """ Calls the other functions to demonstrate and/or test them. """
     # Test your functions by putting calls to them here:
     print_sequence1(210)
-    #draw_circles1(210)
-    print_sequence2(400)
+    draw_circles1(210)
+    #print_sequence2(400)
     #draw_circles2()
-    print_sequence3(101)
+    #print_sequence3(101)
     #print_cosines()
     #draw_cosines_and_sines()
 
@@ -65,13 +65,13 @@ def draw_circles1(n):
     print('--------------------------------------------------')
     print('Running draw_circles1:  See graphics window')
     print('--------------------------------------------------')
-    #window = rg.RoseWindow(400, 400)
-    #center_point = rg.Point(200, 200)
-    #for k in range(0, n, 10):
-        #circle = rg.Circle(center_point, k)
-        #circle.attach_to(window)
-    #window.render()
-    #window.close_on_mouse_click()
+    window = rg.RoseWindow(400, 400)
+    center_point = rg.Point(200, 200)
+    for k in range(0, n, 10):
+        circle = rg.Circle(center_point, k)
+        circle.attach_to(window)
+    window.render()
+    window.close_on_mouse_click()
 
 
 def print_sequence2(n):
